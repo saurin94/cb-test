@@ -30,7 +30,6 @@ phases:
   build:
     commands:
       - echo 'Compiling the Java Code'
-      - javac -cp . HelloWorld.java
   post_build:
     commands:
       - echo "Would deploy here"
